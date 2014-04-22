@@ -1,4 +1,4 @@
 WaveAccess
 ==========
 
-Java Access Wave File Library
+A library of accessing .wav file for Java.
