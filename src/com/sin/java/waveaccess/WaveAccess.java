@@ -1,4 +1,4 @@
-package com.sin.waveaccess;
+package com.sin.java.waveaccess;
 
 
 /**

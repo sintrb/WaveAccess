@@ -1,4 +1,4 @@
-package com.sin.waveaccess;
+package com.sin.java.waveaccess;
 
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
