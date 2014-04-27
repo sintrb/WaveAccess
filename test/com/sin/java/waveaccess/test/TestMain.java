@@ -44,6 +44,7 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		drawWaveFile("rawwavs/wav_40_16_1_pcm.wav");
+		drawWaveFile("rawwavs/wav_40_16_2_pcm.wav");
 	}
 }
 
