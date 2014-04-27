@@ -1,3 +1,5 @@
+* 所有的wav文件都使用能够Cool Editor处理生成
+
 波形文件属性
 
 wav_40_16_1_pcm.wav:
