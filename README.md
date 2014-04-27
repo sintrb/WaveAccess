@@ -27,6 +27,20 @@
 > ![image](https://raw.githubusercontent.com/sintrb/WaveAccess/master/doc/screenshots/shots_wav_40_16_1_pcm.png)
 
 
+* 读取并绘制16位立体声PCM编码波形文件
+
+> ![image](https://raw.githubusercontent.com/sintrb/WaveAccess/master/doc/screenshots/shots_wav_40_16_2_pcm.png)
+
+* 读取并绘制8位单声道PCM编码波形文件
+
+> ![image](https://raw.githubusercontent.com/sintrb/WaveAccess/master/doc/screenshots/shots_wav_20_8_1_pcm.png)
+
+
+* 读取并绘制8位立体声PCM编码波形文件
+
+> ![image](https://raw.githubusercontent.com/sintrb/WaveAccess/master/doc/screenshots/shots_wav_20_8_2_pcm.png)
+
+
 =
 
 ## 怎么获取这些代码？
