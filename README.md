@@ -1,6 +1,6 @@
 # WaveAccess
 
-波形文件(.wav)的Java读写操作，目前只支持16bit的PCM编码方式。
+波形文件(.wav)的Java读写操作，支持16bit和8bitPCM编码的单双声道文件操作
 
 
 
