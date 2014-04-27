@@ -2,6 +2,7 @@ package com.sin.java.waveaccess.test;
 
 // 关于JavaPlot查看https://github.com/sintrb/JavaPlot
 import com.sin.java.plot.Plot;
+import com.sin.java.plot.PlotFrame;
 import com.sin.java.waveaccess.WaveFileReader;
 
 /**
@@ -27,12 +28,12 @@ public class TestMain {
 		//
 		String[] pamss = new String[] { "-r", "-g", "-b" };
 		if (reader.isSuccess()) {
-			Plot.figrue(filename);
+			PlotFrame frame = Plot.figrue(String.format("%s %dHZ %dBit %dCH", filename, reader.getSampleRate(), reader.getBitPerSample(), reader.getNumChannels()));
+			frame.setSize(500, 200);
 			Plot.hold_on();
 			for (int i = 0; i < reader.getNumChannels(); ++i) {
 				// 获取i声道数据
 				int[] data = reader.getData()[i];
-
 				// 绘图
 				Plot.plot(Integers2Doubles(data), pamss[i % pamss.length]);
 			}
@@ -45,6 +46,9 @@ public class TestMain {
 	public static void main(String[] args) {
 		drawWaveFile("rawwavs/wav_40_16_1_pcm.wav");
 		drawWaveFile("rawwavs/wav_40_16_2_pcm.wav");
+		
+		drawWaveFile("rawwavs/wav_20_8_1_pcm.wav");
+		drawWaveFile("rawwavs/wav_20_8_2_pcm.wav");
 	}
 }
 
